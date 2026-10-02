@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" className="w-full h-auto">
+  <g>
+    <polygon points="400,50 450,150 350,150" fill="#0f766e" opacity="0.9"/>
+    <polygon points="350,150 450,150 500,250 300,250" fill="#0d9488" opacity="0.9"/>
+    <polygon points="300,250 500,250 550,350 250,350" fill="#14b8a6" opacity="0.85"/>
+    <polygon points="250,350 550,350 600,450 200,450" fill="#2dd4bf" opacity="0.85"/>
+    <polygon points="200,450 600,450 650,550 150,550" fill="#38bdf8" opacity="0.8"/>
+    <polygon points="150,550 650,550 700,650 100,650" fill="#0ea5e9" opacity="0.8"/>
+    <polygon points="100,650 700,650 750,750 50,750" fill="#0284c7" opacity="0.75"/>
+    <polygon points="50,750 750,750 780,850 20,850" fill="#0369a1" opacity="0.75"/>
+  </g>
+  <text x="400" y="120" textAnchor="middle" fontSize="14" fill="white" fontWeight="bold">Mountain (Himalaya)</text>
+  <text x="400" y="210" textAnchor="middle" fontSize="14" fill="white" fontWeight="bold">Hill (Pahad)</text>
+  <text x="400" y="310" textAnchor="middle" fontSize="13" fill="white" fontWeight="bold">Terai (Plains)</text>
+  <text x="400" y="500" textAnchor="middle" fontSize="24" fill="#134e4a" fontWeight="bold" opacity="0.9">NEPAL</text>
+  <text x="400" y="530" textAnchor="middle" fontSize="14" fill="#134e4a">7 Provinces • 77 Districts</text>
+  <text x="400" y="580" textAnchor="middle" fontSize="12" fill="#0f766e">Education for All</text>
+</svg>
