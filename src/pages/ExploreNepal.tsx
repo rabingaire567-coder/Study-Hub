@@ -3,8 +3,12 @@ import { motion } from 'framer-motion';
 import { provinces, allDistricts } from '../data/nepalLocations';
 
 export default function ExploreNepal() {
-  const [selectedProvince, setSelectedProvince] = useState<number | null>(null);
-  const [selectedDistrict, setSelectedDistrict] = useState<number | null>(null);
+  const [selectedProvince, setSelectedProvince] = useState<number | null>(
+    provinces[0]?.id ?? null
+  );
+  const [selectedDistrict, setSelectedDistrict] = useState<number | null>(
+    allDistricts.find(d => d.provinceId === (provinces[0]?.id ?? -1))?.id ?? null
+  );
 
   const selectedProv = provinces.find(p => p.id === selectedProvince);
   const selectedDist = allDistricts.find(d => d.id === selectedDistrict);
